@@ -1,0 +1,11 @@
+<tr>
+<td class="header">
+<a href="{{ $url }}" style="display: inline-block;">
+@if (trim($slot) === 'IpmuGo')
+<img src="{{ url('logo/ipmugo.png') }}" class="logo" alt="IpmuGo Logo">
+@else
+{{ $slot }}
+@endif
+</a>
+</td>
+</tr>
